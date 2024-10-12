@@ -1,49 +1,49 @@
-body,
-html {
+/* General styling for body and html */
+body, html {
     padding: 0;
     margin: 0;
     width: 100%;
     scroll-behavior: smooth;
 }
 
+/* Container heading styles */
 .container > h2 {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 100px;
 }
 
 .container > h5 {
-    margin-top: 40px;
-    margin-bottom: -15px;
+    margin: 40px 0 -15px 0;
 }
 
+/* Preformatted text styling */
 pre {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     margin-top: 10px;
 }
 
+/* Back-to-top button */
 #myBtn {
     display: none;
     position: fixed;
     bottom: 162px;
     right: 15px;
     z-index: 99;
-    font-family: Montserrat;
-    border: black;
-    outline: none;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     color: #212121;
     cursor: pointer;
     padding: 15px 10px;
+    border: none;
+    outline: none;
     border-radius: 50px;
     font-size: 18px;
-    box-shadow: 0px 0px 10px #000;
     font-weight: 520;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    box-shadow: 0px 0px 10px #000;
+    transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
+/* Hover effect for back-to-top button */
 #myBtn:hover {
     background-color: #212121;
     color: white;
