@@ -1,89 +1,93 @@
+/* Background fixed for body */
 body {
     background-attachment: fixed;
 }
 
+/* Carousel image height */
 .carousel-inner > .item > img {
     height: 400px;
 }
 
-.container > .row > .s5 {
+/* Container styling for specific column */
+.container .row .s5 {
     height: 380px;
-    padding-top: 5px;
-    padding-left: 10px;
+    padding: 5px 0 0 10px;
     border: 1px solid #e0e0e0;
 }
 
-.container > .row > .s5 > img {
-    margin-left: 15px;
-    margin-top: 15px;
+/* Image styling inside the specific column */
+.container .row .s5 > img {
+    margin: 15px 0 0 15px;
     cursor: pointer;
 }
 
-.container > .row > .s5 > p {
-    font-family: Raleway;
+/* Paragraph text styling */
+.container .row .s5 > p {
+    font-family: 'Raleway', sans-serif;
     margin-top: 15px;
 }
 
-.container > .row > .s5 > #rating {
-    margin-top: -10px;
+/* Rating element styling */
+.container .row .s5 > #rating {
+    margin: -10px 0 -10px 0;
     font-size: 20px;
-    margin-bottom: -10px;
 }
 
+/* Carousel height */
 #myCarousel {
     height: 380px;
 }
 
+/* Heading 5 styling */
 h5 {
     margin-top: -2px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* Star rating color */
 .checked {
     color: orange;
 }
 
-nav > .nav-wrapper > a:hover {
+/* Navbar link hover without underline */
+nav .nav-wrapper a:hover,
+nav .nav-wrapper #nav-mobile li a:hover {
     text-decoration: none;
 }
 
-nav > .nav-wrapper > #nav-mobile > li > a:hover {
-    text-decoration: none;
-}
-
+/* Actions container with center alignment */
 .actions {
     text-align: center;
 }
 
-.actions > ul {
-    list-style-type: none;
+/* Action buttons styling */
+.actions ul {
+    list-style: none;
+    padding: 0;
 }
 
-.actions > ul > a {
+.actions ul a {
     text-decoration: none;
     display: inline-block;
     border: 1px solid;
-    margin: 0px 20px;
-    margin-top: 20px;
+    margin: 20px;
     color: black;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     padding: 10px;
     border-radius: 2px;
     font-weight: bold;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
     transition: background-color 0.3s ease-out;
 }
 
-.actions > ul > a:hover {
-    background: black;
+/* Action buttons hover effect */
+.actions ul a:hover {
+    background-color: black;
     color: white;
     font-weight: 500;
 }
 
+/* Centering content */
 .center {
-    margin: 30px 90px;
-    margin-bottom: 0px;
+    margin: 30px 90px 0;
 }
