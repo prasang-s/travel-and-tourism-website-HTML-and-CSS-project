@@ -1,28 +1,29 @@
+/* Global font family */
 font-family: 'Montserrat', sans-serif;
 
-body{
+/* Body styling */
+body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
+/* Content grid layout */
 .content {
-    display; grid;
+    display: grid;
     grid-template-columns: 80% 20%; 
 }
 
-.content>p {
-    display: block;
+/* Paragraph styling within content */
+.content > p {
     font-size: 40px;
-    float: left;
-    margin: 21px;
-    margin-left: 22px;
-    font-family: Montserrat;
+    margin: 21px 0 21px 22px; /* Top, right, bottom, left */
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
-.content>a {    
-    float: right;
+/* Anchor link styling within content */
+.content > a {    
     position: relative;
     top: 29.5px;
     margin-right: 20px;
@@ -30,16 +31,14 @@ body{
     color: white;
     border: 1px solid black;
     background: black;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 25px;
     padding: 5px 10px;
-    -webkit-transition: background-color .3s ease-out;
-    -moz-transition: background-color .3s ease-out;
-    -o-transition: background-color .3s ease-out;
-    transition: background-color .3s ease-out;
+    transition: background-color 0.3s ease-out;
 }
 
-.content>a:hover {
+/* Hover effect for anchor links */
+.content > a:hover {
     background-color: white;
     color: black;
 }
